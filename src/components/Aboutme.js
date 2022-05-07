@@ -1,4 +1,4 @@
-import userAvatar from "../assets/spoooonge1-1.png"
+import userAvatar from "../assets/images/spoooonge1-1.png"
 
 function Aboutme() {
     return (
@@ -14,7 +14,7 @@ function Aboutme() {
                     </p>
                     <br/>
                     <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur maiores asperiores harum autem, nam mollitia, ab voluptatum officiis ullam est iure tempore. Accusamus ipsam neque unde atque fuga temporibus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere tenetur maiores asperiores harum autem, nam mollitia, ab voluptatum officiis ullam est iure tempore. Accusamus ipsam neque unde atque fuga temporibus.
                     </p>
                 </div>
             </section>
