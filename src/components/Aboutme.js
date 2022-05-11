@@ -2,7 +2,7 @@ import userAvatar from "../assets/images/spoooonge1-1.png"
 
 function Aboutme() {
     return (
-        <main>
+        <Aboutme>
             <section>
                 <div>
                     <img src={userAvatar} alt="User Avatar"></img>
@@ -18,7 +18,7 @@ function Aboutme() {
                     </p>
                 </div>
             </section>
-        </main>
+        </Aboutme>
     )
 }
 
