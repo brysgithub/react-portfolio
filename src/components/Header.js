@@ -1,10 +1,8 @@
 import { Link, useLocation } from "react-router-dom"
-console.log("header")
+
 function Header() {
-    console.log("calling useLoaction")
+    
     const location = useLocation();
-    console.log("location", location.pathname);
-    console.log("header");
 
     return(
         <header>
@@ -15,7 +13,7 @@ function Header() {
             
             
                 <div>
-                    <Link to="/" className={location.pathname === "/"?"nav_highlighted shadow":""}>About-Me</Link>
+                    <Link to="/aboutme" className={location.pathname === "/"?"nav_highlighted shadow":""}>About</Link>
                 </div>
                 <div>
                     <Link to="/projects" className={location.pathname === "/projects"?"nav_highlighted shadow":""}>Projects</Link>
