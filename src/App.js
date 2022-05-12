@@ -8,10 +8,10 @@ import Aboutme from "./components/Aboutme";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
-import Main from "./components/Main";
 
 // Import top level CSS
-import "./App.css";
+import "./assets/css/style.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -19,8 +19,7 @@ function App() {
       <Header />
         <Routes>
           
-          <Route path="/" element={ <Main />} />
-          <Route path="/aboutme" element={ <Aboutme />} />
+          <Route path="/" element={ <Aboutme />} />
           <Route path="/projects" element={ <Project />} />
           <Route path="/contact" element={ <Contact />} />
           <Route path="/resume" element={ <Resume />} />

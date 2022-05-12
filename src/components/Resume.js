@@ -1,7 +1,9 @@
 function Resume() {
 
     return(
-        <div><p>Resume</p></div>
+        <div>
+            <p>Resume</p>
+        </div>
     )
 
 }

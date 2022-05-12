@@ -1,31 +1,30 @@
-import { Link, useLocation } from "react-router-dom"
+import { Link } from "react-router-dom"
+import {Container, Row, Col} from "react-bootstrap"
 
 function Header() {
-    
-    const location = useLocation();
 
     return(
-        <header>
-            
-                <div>
+        <Container>
+            <div className="row">
+                <div className="col-8">
                     <h1>Bryan Schenck</h1>
                 </div>
             
-            
-                <div>
-                    <Link to="/aboutme" className={location.pathname === "/"?"nav_highlighted shadow":""}>About</Link>
+                <div className="col-3">
+                    <div className="row">
+                        <div>
+                            <Link to="/">About-</Link>
+                        
+                            <Link to="/projects">Projects-</Link>
+                       
+                            <Link to="/contact">Contact-</Link>
+                        
+                            <Link to="/resume">Resume</Link>
+                        </div>
+                    </div>
                 </div>
-                <div>
-                    <Link to="/projects" className={location.pathname === "/projects"?"nav_highlighted shadow":""}>Projects</Link>
-                </div>
-                <div>
-                    <Link to="/contact" className={location.pathname === "/contact"?"nav_highlighted shadow":""}>Contact</Link>
-                </div>
-                <div>
-                    <Link to="/resume" className={location.pathname === "/resume"?"nav_highlighted shadow":""}>Resume</Link>
-                </div>
-            
-        </header>
+            </div> 
+        </Container>
     )
 
 }
