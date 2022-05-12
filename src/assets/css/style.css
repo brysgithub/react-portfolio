@@ -33,3 +33,10 @@
 .avatar-img {
     width: 15rem;
 }
+
+.resume-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
