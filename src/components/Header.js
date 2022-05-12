@@ -4,12 +4,12 @@ import {Container, Row, Nav} from "react-bootstrap"
 function Header() {
 
     return(
-        <Container>
+        <Container className="header">
             <Row>
 
                 <h1>Bryan Schenck</h1>
 
-                <Nav className="justify-content-end" activeKey="/home">
+                <Nav className="justify-content-end links" activeKey="/home">
                     <Nav.Item>
                         <Nav.Link as={Link} to="/">About</Nav.Link>
                     </Nav.Item>

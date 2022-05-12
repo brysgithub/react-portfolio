@@ -1,9 +1,11 @@
+import { Container } from "react-bootstrap"
+
 function Resume() {
 
     return(
-        <div>
+        <Container>
             <p>Resume</p>
-        </div>
+        </Container>
     )
 
 }

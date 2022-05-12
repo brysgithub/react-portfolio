@@ -1,9 +1,12 @@
+import { Container } from "react-bootstrap"
+
+
 function Project() {
 
     return(
-        <div>
-            
-        </div>
+        <Container>
+            <p>Projects</p>
+        </Container>
     )
 
 }

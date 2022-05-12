@@ -1,9 +1,12 @@
+import { Container } from "react-bootstrap"
+
+
 function Contact() {
 
     return(
-        <div>
+        <Container>
             <p>Contact</p>
-        </div>
+        </Container>
     )
 
 }
