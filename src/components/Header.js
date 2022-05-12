@@ -1,29 +1,30 @@
 import { Link } from "react-router-dom"
-import {Container, Row, Col} from "react-bootstrap"
+import {Container, Row, Nav} from "react-bootstrap"
 
 function Header() {
 
     return(
         <Container>
-            <div className="row">
-                <div className="col-8">
-                    <h1>Bryan Schenck</h1>
-                </div>
-            
-                <div className="col-3">
-                    <div className="row">
-                        <div>
-                            <Link to="/">About-</Link>
-                        
-                            <Link to="/projects">Projects-</Link>
-                       
-                            <Link to="/contact">Contact-</Link>
-                        
-                            <Link to="/resume">Resume</Link>
-                        </div>
-                    </div>
-                </div>
-            </div> 
+            <Row>
+
+                <h1>Bryan Schenck</h1>
+
+                <Nav className="justify-content-end" activeKey="/home">
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/">About</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link as={Link} to="/resume">Resume</Nav.Link>
+                    </Nav.Item>
+                </Nav>
+                
+            </Row> 
         </Container>
     )
 
