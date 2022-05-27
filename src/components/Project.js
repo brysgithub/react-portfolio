@@ -9,7 +9,7 @@ function Project() {
 
     return(
         <Container>
-            <Row>
+            <Row className="justify-content-center">
                 <Card style={{ width: '18rem', margin: '1rem' }}>
                     <Card.Img variant="top" src={pewPewImg} />
                     <Card.Body>
