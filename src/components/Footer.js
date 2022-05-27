@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap"
 function Footer() {
 
     return(
-        <Container className="footer">
+        <Container className="footer" fixed="bottom">
             <Row>
                 <Col>Github: <a href="https://github.com/brysgithub">brysgithub</a></Col>
                 <Col>LinkedIn: <a href="https://www.linkedin.com/in/bryan-schenck-4b56a1223/">Bryan Schenck</a></Col>

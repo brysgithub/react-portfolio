@@ -8,7 +8,6 @@ function Resume() {
             <a href={pdf}><Button variant="primary">Download Resume</Button></a>
         </Container>
     )
-
 }
 
 export default Resume
