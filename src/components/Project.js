@@ -18,6 +18,7 @@ function Project() {
                             Fun game made using the MERN stack. Made in 2 weeks!
                         </Card.Text>
                         <a href="https://pewpewpewpew-spaceman.herokuapp.com/"><Button variant="primary">Play</Button></a>
+                        <a href="https://github.com/Morgoth27/pewpew_spaceman"><Button variant="primary">Github</Button></a>
                     </Card.Body>
                 </Card>
                 
@@ -29,6 +30,7 @@ function Project() {
                             Password generator made with Javascript. Hosted on Github.
                         </Card.Text>
                         <a href="https://brysgithub.github.io/password-gen-hw3/"><Button variant="primary">Generate</Button></a>
+                        <a href="https://github.com/brysgithub/password-gen-hw3"><Button variant="primary">Github</Button></a>
                     </Card.Body>
                 </Card>
 
@@ -40,6 +42,7 @@ function Project() {
                             Weather dashboard that makes calls to OpenweatherAPI
                         </Card.Text>
                         <a href="https://brysgithub.github.io/weather-dashboard-hw6/"><Button variant="primary">Forecast</Button></a>
+                        <a href="https://github.com/brysgithub/weather-dashboard-hw6"><Button variant="primary">Github</Button></a>
                     </Card.Body>
                 </Card>
 
@@ -51,6 +54,7 @@ function Project() {
                             Personal portfolio made in react with react-bootstrap. Wait, you're here already?
                         </Card.Text>
                         <a href="https://brysgithub.github.io/react-portfolio/#/"><Button variant="primary">View</Button></a>
+                        <a href="https://github.com/brysgithub/react-portfolio"><Button variant="primary">Github</Button></a>
                     </Card.Body>
                 </Card>
             </Row>    
