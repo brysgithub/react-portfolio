@@ -22,7 +22,9 @@
 }
 
 .about-figure {
-    padding-left: 10rem;
+    padding-left: 1vw;
+    padding-right: 10vw;
+    margin-bottom: 20vh;
     width: 40rem;
 }
 
@@ -34,7 +36,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 10vh;
+    margin-bottom: 65vh;
 }
 
 .nav-link {
@@ -44,4 +47,9 @@
 .btn {
     background-color: gray !important;
     border-color: rgb(202, 202, 202) !important;
+}
+
+.contact {
+    margin-top: 5vh;
+    margin-bottom: 35vh;
 }
