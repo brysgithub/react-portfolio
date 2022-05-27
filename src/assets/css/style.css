@@ -40,3 +40,7 @@
     align-items: center;
     margin-top: 10rem;
 }
+
+.nav-link {
+    color: white !important;
+}
