@@ -23,7 +23,7 @@
 
 ## Description
 
-![Screenshot](./src/assets/images/portfolioScreenshot.png)
+![Screenshot](./src/assets/images/resumeScreenshot.png)
 
 This is my personal portfolio made with React and React-Bootstrap.
 
