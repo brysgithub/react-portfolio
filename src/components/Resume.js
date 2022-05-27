@@ -1,10 +1,11 @@
 import { Container, Button } from "react-bootstrap"
+import pdf from "../assets/pdf/resume.pdf"
 
 function Resume() {
 
     return(
         <Container className="resume-cont">
-            <a href="https://docs.google.com/document/d/1NCAwxUiMD6hY4vH1B0n7kUciPkuvRgMgWgPhjfiowCo/edit?usp=sharing"><Button variant="primary">View Resume</Button></a>
+            <a href={pdf}><Button variant="primary">Download Resume</Button></a>
         </Container>
     )
 
